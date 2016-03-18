@@ -1,5 +1,5 @@
 # drools-integration
-Este es un proyecto Java desarrollado con MAVEN. Tiene tres clases principales que representan las opciones de integración de un proyecto Java con proyectos de reglas de negocio desarrollados en [KIE-DROOLS]. Para usar este proyecto se debe clonar este repositorio desde eclipse y seguir las instrucciones consignadas en la sección de configuración. 
+Este es un proyecto Java desarrollado con MAVEN. Tiene tres clases principales que representan las opciones de integración de un proyecto Java con proyectos de reglas de negocio desarrollados en [DROOLS]. Para usar este proyecto se debe clonar este repositorio desde eclipse y seguir las instrucciones consignadas en la sección de configuración. 
 
 * [KieBaseInclusionRuleLocalFile.java] [LOCAL]: es un ejemplo de ejecución de reglas de negocio que están contenidas en archivos .drl locales, es decir dentro del mismo proyecto.
 * [KieContainerFromKIEServer.java] [REMOTEKIE]: es un ejemplo de integración con reglas desarrolladas en KIE-Drools, que es un servicio que se despliega en un contendor JAVA (JBOSS EAP, WILDFLY o TOMCAT). Este me permite gestionar, validar, compilar y desplegar como repositorio maven remoto, un proyecto de reglas de negocio. 
@@ -51,7 +51,7 @@ Y en la sección de repositorios agregar lo siguiente:
 
 y finalmente activar el perfil donde se encuentra el repositorio antes configurado.
 
-   [KIE-DROOLS]: <http://www.drools.org/>
+   [DROOLS]: <http://www.drools.org/>
    [LOCAL]: <https://github.com/gaalvarez/drools-integration/blob/master/BRIntegration/src/main/java/org/cluster/drools/KieBaseInclusionRuleLocalFile.java>
    [REMOTEKIE]: <https://github.com/gaalvarez/drools-integration/blob/master/BRIntegration/src/main/java/org/cluster/drools/KieContainerFromKIEServer.java>
    [REMOTEMAVEN]: <https://github.com/gaalvarez/drools-integration/blob/master/BRIntegration/src/main/java/org/cluster/drools/KieContainerFromRemoteMvnRepo.java>
